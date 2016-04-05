@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>GMT-11:00</string>
+		<string>GMT-10:00</string>
+		<string>GMT-9:00</string>
+		<string>GMT-8:00</string>
+		<string>GMT-7:00</string>
+		<string>GMT-6:00</string>
+		<string>GMT-5:00</string>
+		<string>GMT-4:00</string>
+		<string>GMT-3:00</string>
+		<string>GMT-2:00</string>
+		<string>GMT-1:00</string>
+		<string>GMT+0:00</string>
+		<string>GMT+1:00</string>
+		<string>GMT+2:00</string>
+		<string>GMT+3:00</string>
+		<string>GMT+4:00</string>
+		<string>GMT+5:00</string>
+		<string>GMT+6:00</string>
+		<string>GMT+7:00</string>
+		<string>GMT+8:00</string>
+		<string>GMT+9:00</string>
+		<string>GMT+10:00</string>
+		<string>GMT+11:00</string>
+		<string>GMT+12:00</string>
+	</array>
+	<array>
+		<string>GMT-11:00 Pago</string>
+		<string>GMT-10:00 Honolulu</string>
+		<string>GMT-9:00 Anchorage</string>
+		<string>GMT-8:00 Los Angeles</string>
+		<string>GMT-7:00 Denver</string>
+		<string>GMT-6:00 Chicago</string>
+		<string>GMT-5:00 New York</string>
+		<string>GMT-4:00 San Diego</string>
+		<string>GMT-3:00 Rio de Janeiro</string>
+		<string>GMT-2:00 Fernando</string>
+		<string>GMT-1:00 Praia</string>
+		<string>GMT+0:00 London</string>
+		<string>GMT+1:00 Paris</string>
+		<string>GMT+2:00 Cairo</string>
+		<string>GMT+3:00 Jeddah</string>
+		<string>GMT+4:00 Dubai</string>
+		<string>GMT+5:00 Karachi</string>
+		<string>GMT+6:00 Dacca</string>
+		<string>GMT+7:00 Bangkok</string>
+		<string>GMT+8:00 Hong Kong</string>
+		<string>GMT+9:00 Tokyo</string>
+		<string>GMT+10:00 Sydney</string>
+		<string>GMT+11:00 Noumea</string>
+		<string>GMT+12:00 Wellington</string>
+	</array>
+</array>
+</plist>

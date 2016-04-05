@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+        <string>GMT-11:00</string>
+        <string>GMT-10:00</string>
+        <string>GMT-9:00</string>
+        <string>GMT-8:00</string>
+        <string>GMT-7:00</string>
+        <string>GMT-6:00</string>
+        <string>GMT-5:00</string>
+        <string>GMT-4:00</string>
+        <string>GMT-3:00</string>
+        <string>GMT-2:00</string>
+        <string>GMT-1:00</string>
+        <string>GMT+0:00</string>
+        <string>GMT+1:00</string>
+        <string>GMT+2:00</string>
+        <string>GMT+3:00</string>
+        <string>GMT+4:00</string>
+        <string>GMT+5:00</string>
+        <string>GMT+6:00</string>
+        <string>GMT+7:00</string>
+        <string>GMT+8:00</string>
+        <string>GMT+9:00</string>
+        <string>GMT+10:00</string>
+        <string>GMT+11:00</string>
+        <string>GMT+12:00</string>
+	</array>
+	<array>
+		<string>GMT-11:00 帕果</string>
+		<string>GMT-10:00 檀香山</string>
+		<string>GMT-9:00 安克雷奇</string>
+		<string>GMT-8:00 洛杉矶</string>
+		<string>GMT-7:00 丹佛</string>
+		<string>GMT-6:00 芝加哥</string>
+		<string>GMT-5:00 纽约</string>
+		<string>GMT-4:00 圣地亚哥</string>
+		<string>GMT-3:00 里约热内卢</string>
+		<string>GMT-2:00 费尔南多</string>
+		<string>GMT-1:00 普拉亚</string>
+		<string>GMT+0:00 伦敦</string>
+		<string>GMT+1:00 巴黎</string>
+		<string>GMT+2:00 开罗</string>
+		<string>GMT+3:00 吉达</string>
+		<string>GMT+4:00 迪拜</string>
+		<string>GMT+5:00 卡拉奇</string>
+		<string>GMT+6:00 达卡</string>
+		<string>GMT+7:00 曼谷</string>
+		<string>GMT+8:00 香港</string>
+		<string>GMT+9:00 东京</string>
+		<string>GMT+10:00 悉尼</string>
+		<string>GMT+11:00 努美阿</string>
+		<string>GMT+12:00 惠灵顿</string>
+	</array>
+</array>
+</plist>

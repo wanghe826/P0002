@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GLChooseTimeInputView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="206"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ak3-yZ-yDd">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="gdw-BS-crf"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem title="取消" id="KRC-8L-xSc">
+                            <connections>
+                                <action selector="buttonClick:" destination="iN0-l3-epB" id="uou-km-LVh"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="dml-s6-EEK"/>
+                        <barButtonItem title="確定" id="D45-Mb-XYm">
+                            <connections>
+                                <action selector="buttonClick:" destination="iN0-l3-epB" id="ipb-7t-Sng"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="0by-Li-UZU">
+                    <rect key="frame" x="0.0" y="44" width="320" height="162"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="8ug-Ou-sLd"/>
+                    </constraints>
+                    <date key="date" timeIntervalSinceReferenceDate="428476194.95483398">
+                        <!--2014-07-31 05:09:54 +0000-->
+                    </date>
+                </datePicker>
+                <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="inH-YM-DIr">
+                    <rect key="frame" x="0.0" y="44" width="320" height="162"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="nSF-MC-fby"/>
+                    </constraints>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="inH-YM-DIr" secondAttribute="trailing" id="Ft3-ZA-FRg"/>
+                <constraint firstItem="0by-Li-UZU" firstAttribute="top" secondItem="ak3-yZ-yDd" secondAttribute="bottom" id="LeZ-Av-DAk"/>
+                <constraint firstAttribute="trailing" secondItem="ak3-yZ-yDd" secondAttribute="trailing" id="Tg4-P4-fSe"/>
+                <constraint firstAttribute="bottom" secondItem="inH-YM-DIr" secondAttribute="bottom" id="UG7-al-4o3"/>
+                <constraint firstItem="ak3-yZ-yDd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gZN-MO-wKd"/>
+                <constraint firstItem="inH-YM-DIr" firstAttribute="top" secondItem="ak3-yZ-yDd" secondAttribute="bottom" id="huY-Ce-DxN"/>
+                <constraint firstAttribute="trailing" secondItem="0by-Li-UZU" secondAttribute="trailing" id="jIk-tD-Dxh"/>
+                <constraint firstItem="0by-Li-UZU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="n5W-05-O6L"/>
+                <constraint firstAttribute="bottom" secondItem="0by-Li-UZU" secondAttribute="bottom" id="olM-rW-s6G"/>
+                <constraint firstItem="inH-YM-DIr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pbt-6M-8iX"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cancelBarItem" destination="KRC-8L-xSc" id="Big-Se-jDk"/>
+                <outlet property="countPicker" destination="inH-YM-DIr" id="hy4-nL-a3V"/>
+                <outlet property="datePicker" destination="0by-Li-UZU" id="eOn-Qu-VKj"/>
+                <outlet property="ensureBarItem" destination="D45-Mb-XYm" id="U9a-jU-27G"/>
+            </connections>
+        </view>
+    </objects>
+</document>

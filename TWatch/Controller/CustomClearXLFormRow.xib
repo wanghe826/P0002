@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="CustomCellZh" id="iN0-l3-epB" customClass="CustomFormRowCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_sportset_clear.png" translatesAutoresizingMaskIntoConstraints="NO" id="toG-wQ-0VA">
+                    <rect key="frame" x="10" y="18" width="25" height="25"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="E3H-jk-bVb"/>
+                        <constraint firstAttribute="height" constant="25" id="pUZ-j6-nei"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Neq-cr-OQZ">
+                    <rect key="frame" x="45" y="20" width="124" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="124" id="5gB-SO-5tR"/>
+                        <constraint firstAttribute="height" constant="21" id="Xlq-cr-bXu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="清除运动数据">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clearAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="4n6-o7-gMH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="Neq-cr-OQZ" secondAttribute="centerY" id="7wq-ZL-ekr"/>
+                <constraint firstItem="Neq-cr-OQZ" firstAttribute="leading" secondItem="toG-wQ-0VA" secondAttribute="trailing" constant="10" id="BPA-eW-KZ0"/>
+                <constraint firstItem="toG-wQ-0VA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="MM8-Kg-YrP"/>
+                <constraint firstAttribute="centerY" secondItem="toG-wQ-0VA" secondAttribute="centerY" id="nit-ql-z7b"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="clearBtn" destination="Neq-cr-OQZ" id="Ruq-Uz-QLm"/>
+                <outlet property="customImage" destination="toG-wQ-0VA" id="5QD-To-PFU"/>
+            </connections>
+            <point key="canvasLocation" x="430" y="370"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_sportset_clear.png" width="24" height="24"/>
+    </resources>
+</document>

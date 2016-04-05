@@ -1,0 +1,13 @@
+PODS:
+  - iVersion (1.11.4)
+  - XLForm (3.0.0)
+
+DEPENDENCIES:
+  - iVersion (~> 1.11.4)
+  - XLForm
+
+SPEC CHECKSUMS:
+  iVersion: 2b6ffe708672cb494ba3cab150a94800c2892e81
+  XLForm: 10fc7eb9e2d5df21a515fa3a794f4e26319abd0e
+
+COCOAPODS: 0.38.2

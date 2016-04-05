@@ -1,0 +1,154 @@
+//
+//  TWatch-Prefix.pch
+//  TWatch
+//
+//  Created by Yingbo on 15/6/9.
+//  Copyright (c) 2015年 ZeroSoft. All rights reserved.
+//
+
+#ifndef TWatch_TWatch_Prefix_pch
+#define TWatch_TWatch_Prefix_pch
+#endif
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+//#endif
+#import "BLEEventNotification.h"
+#import "BLEDefine.h"
+#import "AppDelegate.h"
+#import "BLEEventNotification.h"
+#import "BLEAppContext.h"
+ #import "Toast+UIView.h"
+#ifdef DEBUG
+#define DLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define DLog( s, ... )
+#endif
+
+#ifdef __OBJC__
+#import   <UIKit/UIKit.h>
+#import   <Foundation/Foundation.h>
+#import   <SystemConfiguration/SystemConfiguration.h>
+#import   <MobileCoreServices/MobileCoreServices.h>
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//屏幕的宽
+#define screen_width [UIScreen mainScreen].bounds.size.width
+//屏幕的高
+#define screen_height [UIScreen mainScreen].bounds.size.height
+
+#define SCREEN_RATIO [UIScreen mainScreen].bounds.size.width/320.0
+
+
+#define RGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define HexRGBAlpha(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)]
+#define SeparatorColor HexRGBAlpha(0x090909, 0.1)
+
+#define kAlarmWhenDisconnect @"alam when disconnect"
+
+#define CALL_IS_HINT        @"CallIsHint"
+#define ALARM_IS_HINT       @"AlarmIsHint"
+#define EVENT_IS_HINT       @"EventIsHint"
+#define SOS_IS_ENABLED      @"SosIsEnabled"
+#define TIME_AUTO_CHECK     @"TimeAutoCheck"
+
+
+#define KEY_SOS_NUMBER      @"SOSNumber"
+
+#define ApplicationDelegate     ((AppDelegate *)([UIApplication sharedApplication].delegate))
+
+//七牛服务器的json（保存固件信息的json）
+#define QiniuFirmwareFileJson @"https://dn-tvuoogame.qbox.me/firmware.json"
+
+#define  ROW_GMT12      0
+#define  ROW_GMT11      1
+#define  ROW_GMT10      2
+#define  ROW_GMT09      3
+#define  ROW_GMT08      4
+#define  ROW_GMT07      5
+#define  ROW_GMT06      6
+#define  ROW_GMT05      7
+#define  ROW_GMT04      8
+#define  ROW_GMT03      9
+#define  ROW_GMT02      10
+#define  ROW_GMT01      11
+#define  ROW_GMT00      12
+#define  ROW_GMTF01     13
+#define  ROW_GMTF02     14
+#define  ROW_GMTF03     15
+#define  ROW_GMTF04     16
+#define  ROW_GMTF05     17
+#define  ROW_GMTF06     18
+#define  ROW_GMTF07     19
+#define  ROW_GMTF08     20
+#define  ROW_GMTF09     21
+#define  ROW_GMTF10     22
+#define  ROW_GMTF11     23
+
+//手机防丢的开关
+#define ForbidMobileLostSwitch @"ForbidMobileLostSwitch"
+//手机提醒的开关
+#define NotDisturbSwitch    @"NotDisturbSwitch"
+#define CallRemindSwitch    @"CallRemindSwitch"
+#define MsgRemindSwitch     @"MsgRemindSwitch"
+
+//开始时间的持久化key
+#define StartTimeUserDefaultsKey @"StartTimeUserDefaultsKey"
+//结束时间的持久化key
+#define EndTimeUserDefaultsKey @"EndTimeUserDefaultsKey"
+
+//延迟拍照的时间数据持久化key
+#define DelayTakePhotoKey   @"DelayTakePhotoKey"
+
+#define MobileRemindStatus  @"MobileRemindStatus"
+#define SmsRemindStatus     @"SmsRemindStatus"
+
+#define MomoRemindStatus    @"MomoRemindStatus"
+#define QQRemindStatus      @"QQRemindStatus"
+#define WeixinRemindStatus  @"WeixinRemindStatus"
+#define WeiboRemindStatus   @"WeiboRemindStatus"
+#define SkypeRemindStatus   @"SkypeRemindStatus"
+#define SinaWeiboRemindStatus @"SinaWeiboRemindStatus"
+#define FacebookRemindStatus @"FacebookRemindStatus"
+#define TwitterRemindStatus @"TwitterRemindStatus"
+#define WhatsappRemindStatus @"WhatsappRemindStatus"
+#define LineRemindStatus    @"LineRemindStatus"
+#define OtherRemindStatus   @"OtherRemindStatus"
+#define MissedCallStatus    @"MissedCallStatus"
+#define ReservedStatus      @"ReservedStatus"
+#define CalenderStatus      @"CalenderStatus"
+
+
+//运动睡眠设置
+#define SportsModeStatusKey @"SportsModeStatus"
+#define FootTargetKey   @"FootTarget"
+#define SleepTargetKey  @"SleepTargetKey"
+#define JiuzuoStatusKey @"JiuzuoStatus"
+#define JiuzuoBeginKey  @"JiuzuoBegin"
+#define JiuzuoEndKey    @"JiuzuoEnd"
+#define JiuzuoHintKey   @"JiuzuoHint"
+
+#define FILE_NAME       @"FileName"
+#define FILE_PATH       @"FilePath"
+
+
+#define APersonInfo    @"APersonInfo"
+//导航栏返回按钮上一个操作页面
+#define ADD_BACK_PRE_FUNC \
+- (void)back    \
+{\
+[self.navigationController popViewControllerAnimated:YES];\
+}
+
+//导航栏返回按钮上一个操作页面
+#define ADD_BACK_ROOT_FUNC \
+- (void)back    \
+{\
+[self.navigationController popToRootViewControllerAnimated:YES];\
+}
+
+#endif

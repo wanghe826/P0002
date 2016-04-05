@@ -1,0 +1,430 @@
+/* 
+  Localizable.strings
+  TWatch
+
+  Created by QFITS－iOS on 15/8/11.
+  Copyright (c) 2015年 ZeroSoft. All rights reserved.
+*/
+
+/*
+//======================第一个界面(手机提醒界面)==========================
+"华唛智能" = "FM-Smart";
+"手机提醒" = "Phone notify";  //手机提醒界面
+"勿扰模式" = "DND mode";
+"来电提醒" = "Call notify";
+"信息提醒" = "Message notify";
+"防丢提醒" ＝ "lost notify";
+"微信"   =  "WeChat";
+"微博"   =  "Weibo";
+"QQ" = "QQ";
+"陌陌" = "Momo";
+//======================个人信息界面=====================
+"个人信息" = "Profile";
+//点击头像
+"拍照"    =   "Take picture";
+"从相册选择" =   "Image";
+"取消"    =   "Cancel";
+//点击性别
+"性别"  =   "Gender";
+"男"   =  "Male";
+"女"   =   "Female";
+//点击生日
+"生日"   =   "Birthday";
+
+"完成"   =   "Complete";
+//点击身高
+"身高"    =   "Height";
+"厘米"  =  "CM";
+//点击体重
+"体重"    =   "Weight";
+"公斤"    =  "Kg";
+//点击完成
+"保存"    =   "Save";
+//=======================智能闹钟界面=====================
+"智能闹钟"  = "Smart Alarm";
+"正在获取闹钟设置"  =  "Get alarm settings";
+"单次"   =  "once";
+"编辑闹钟"  =  "Edit alarm";
+"闹钟开关"  =  "Alarm switch";
+"闹钟时间"  =  "Alarm time";
+"重复"   =  "Repeat";
+"周一" = "Monday";
+"周二" = "Tusesday";
+"周三" = "Wednesday";
+"周四" = "Thursday";_hintLabel
+"周五" = "Friday";
+"周六" = "Saturday";
+"周日" = "Sunday";
+"请选择重复日期"  =  "Please select a date again";
+//=======================智能校时界面=====================
+"智能校时"  = "Smart adjusting time";
+"手表现在的指针指向是？"  =  "Watch the pointer to now is?";
+"同步时间"   =  "Synchronization time";
+
+"断开连接"  =  "Disconnect";  //断开连接界面（已经连接上手表了）
+"确定断开蓝牙连接吗？"  = "Sure disconnect bluetooth connection?";
+"断开连接后请前往设置手动删除该蓝牙的配对信息"  =  "Following the disconnected, please go to Settings manually delete the bluetooth pairing information";
+"取消"    =   "Cancel";
+"确定"    =   "Ok";
+
+"手表配对"  = "Watch matches";  //手表配对界面（未连接上手表）
+"正在搜索华唛手表"  = "Searching FAMAR Watch";
+"请确保手表有电，打开蓝牙并靠近手机" = "Please make sure that the watch have electricity, open the bluetooth and close to the phone";
+"搜索"  = "Search";
+//=======================运动设置界面=====================
+"运动设置" =  "Settings";
+"久坐提醒" = "Sedentary notify";
+"分钟"    =   "Mins";
+"步数目标"  = "Step number goal";
+"步每天"  =  "Step every day";
+"清除运动数据"  = "Remove movement data";
+"是否清除运动数据"  = "Whether to remove movement data";
+"清除成功"   = "Remove success";
+//=======================关于系统界面=====================
+"关于系统"  =  "About";
+"系统版本号"  = "System version number";
+"设备固件版本号" = "Device firmware version number";
+"电池电量状态"  = "Battery status";
+//==========================帮助=========================
+"帮助"  =  "Help";
+
+//蓝牙连接状态
+"未连接"       =   "Disconnected";
+"已连接"       =   "Connected";
+"正在连接"      =   "Connecting";
+//=========================第二个界面(运动健康界面)=============================
+"运动健康"     =  "Sports and Health";
+"今日总步数"  =  "Todey total step number";
+"米"   = "M";
+"千卡" = "Kilocalorie";
+"今日记录"  =  "Today record";
+"活动里程:米"  = "Activity range:M";
+"全天步数:步" = "All steps:step";
+"活动时间:分" = "Activity time:mins";
+"能量消耗:千卡" = "Energy consumption：Kilocalorie";
+
+"日均里程:千米" = "Average daily mileage:Km";
+"日均步数:步"  =  "Average daily steps:Step";
+"日均消耗:千卡" = "Average daily consumption:Kilocalorie";
+
+"当天活动里程:千米" = "Today activity range:Km";
+"当天步数:步"  = "Today steps:step";
+"当天能量消耗:千卡" = "Today energy consumption:Kilocalorie";
+//=========================第三个界面(遥控拍照界面)=============================
+"遥控拍照" = "Photograph";
+*/
+
+
+"华唛智能" = "FAMAR";
+"开始体验" = "Get Started";
+"系统版本号"  = "Version";
+"网络连接不可用" = "Network connection is unavailable";
+"暂无新版本，请耐心等待" = "No new version, please be patient";
+//=========按键==========
+"返回" = "Back";
+"取消" = "Cancel";
+"设置" = "Setting";
+"保存" = "Save";
+"删除" = "Delete";
+//=======各种单位=========
+"千克" = "kg";
+"厘米" = "cm";
+"米"   = "M";
+"步" = "steps";
+"时" = "hour";
+"分" = "min";
+"今日" = "Today";
+
+"生日" = "Birthday";
+"厘米" = "CM";
+"公斤" = "Kg";
+"保存" = "Save";
+
+"编辑闹钟" = "Edit alarm";
+"步每天" = "Steps";
+
+"周一 " = "Mon ";
+"周二 " = "Tus ";
+"周三 " = "Wed ";
+"周四 " = "Thu ";
+"周五 " = "Fri ";
+"周六 " = "Sat ";
+"周日 " = "Sun ";
+"是否清除运动量数据" = "Clear the data?";
+"确定" = "OK";
+"清除成功" = "Clear success";
+//==========其他=========
+"验证" = "Verification";
+"蓝牙相关" = "About BLE";
+"蓝牙未打开" = "Bluetooth off！";
+"蓝牙未连接" = "Bluetooth disconnected";
+"未连接" = "Disconnected";
+"连接成功" = "Connected";
+"连接失败" = "Connection fail";
+"搜索中" = "Search";
+"搜索完成" = "Search complete";
+"连接中" = "Connecting";
+"已连接" = "Connected";
+"断开连接" = "Disconnected";
+"是否断开当前设备?" = "Disconnect the device?";
+"无网络，请先检查网络连接。" = "Please check the network.";
+
+"请连接手表" = "Please connect the watch";
+"正在同步时间,请稍后..." = " It takes a little time to Synch,Please waiting.";
+"搜索" = "Search";
+"微博"   =  "Weibo";
+"QQ" = "QQ";
+"陌陌" = "Momo";
+"今日总步数"  =  "Total steps";
+"正在搜索华唛手表"  = "Searching FAMAR Watch";
+
+"修改成功" = "Saved";
+"请填写昵称" = "Please fill in the nickname";
+"请填写性别" = "Please fill in the gender";
+"请填写生日" = "Please fill in the birthday";
+"请填写体重" = "Please fill in the weight";
+"请填写身高" = "Please fill out the height";
+
+//=========蓝牙方式选择界面==========
+"你可以选择以下两种方式与您的手表进行连接" = "Two ways to connect your watch";
+"点击此处进行蓝牙搜索设备配对" = "Click here to search your watch";
+"进一步了解FAMAR" = "Know more about FAMAR";
+"跳过" = "Skip";
+"确定断开蓝牙连接吗？" = "Sure disconnect bluetooth connection?";
+"断开连接后请前往设置手动删掉该蓝牙的配对信息" = "Please go to Settings to delete the bluetooth pairing information";
+//=========搜索蓝牙界面=============
+"搜索设备" = "Search device";
+"提交" = "OK";
+"输入蓝牙MAC地址" = "Input MAC address";
+//==========用户信息界面=============
+"日步量" = "Steps";
+"久坐量" = "Sedentariness";
+"睡眠量" = "Sleep";
+"你的身体状况为:" = "Your body state:";
+"健康" = "Health";
+"广东 深圳" = "ShenZhen GuangDong";
+//=========用户信息修改界面==========
+"个人信息设置" = "Profile";
+"性别" = "Gender";
+"头像" = "Head";
+"目标设置" = "Target";
+"男" = "Male";
+"女" = "Female";
+"身高" = "Height";
+"体重" = "Weight";
+"不限" = "Unlimited";
+"生日不能晚于当前时间" = "Birthday can't be later than now";
+"昵称不能为空" = "Nickname can't be empty";
+"地区设置" = "District settings";
+"拍照" = "Take picture";
+"从相册选择" = "Image";
+"剩余电量" = "Battery";
+"手机提醒" = "Phone reminder";
+"APP提醒" = "APP reminder";
+"运动健康" = "Fitness";
+"智能闹钟" = "Clock";
+"更多" = "More";
+"名片" = "Namecard";
+"登入" = "Log in";
+"注册" = "Register";
+
+"下次将重新开始，是否取消升级" = "Restart next time,update cancelled now？";
+
+"正在同步数据，请稍后" = "Are synchronized data, please later";
+
+//=============设备查找界面===========
+"请稍等片刻，设备搜索中" = "Searching device, please wait for a Sec.";
+"搜索完成" = "Searching completed";
+"搜索设备" = "Searching device";
+//=============系统设置==============
+"关于系统" = "About";
+"微信" = "Wechat";
+"官网" = "Offical Website";
+"检查更新" = "Check updates";
+"当前为最新版本" = "Already be the Latest Version";
+"非WIFI" = "Non-WIFI";
+"连接超时" = "Timed out";
+
+"未安装微信!" = "Wechat not installed";
+"你还没有安装QQ" = "QQ not installed";
+"你还没有安装微博" = "Weibo not installed";
+"关于系统" = "About";
+"软件版本" = "Software version";
+"设备固件版本号" = "Watch version";
+"电池电量状态" = "Battery";
+"蓝牙状态" = "Bluetooth Status";
+"帮助" = "Help";
+"获取帮助" = "Help";
+//==============运动设置==============
+"运动设置" = "Fitness Settings";
+"久坐提醒" = "Sedentary alarm";
+"久坐时长" = "Sedentary time";
+"运动目标" = "Target";
+"清除运动数据" = "Clear data";
+"清除数据成功！" = "Data Clearance completed";
+//===============固件升级=============
+"正在升级华唛手表固件" = "Famar FW updating";
+"请确保手表与手机蓝牙保持连接" = "Please keep watch and BLE connected";
+"暂不升级" = "Do not update now";
+"请不要让手表远离手机，确保蓝牙保持连接!" = "Please do not put your watch far away from your phone to keep BLE connected";
+"下次将重新开始，是否取消升级" = "Restart next time,update cancelled now？";
+"是" = "YES";
+"否" = "NO";
+//============蓝牙4.0设置界面==========
+"蓝牙4.0设置" = "BLE 4.0 settings";
+"寻找Famar" = "Looking for Famar";
+"清除连接" = "Connection cleared";
+"连接蓝牙" = "Connecting to BLE";
+"连接蓝牙设备" = "Connecting to Device";
+"断开蓝牙设备" = "Disconnected";
+//=============下拉刷新==============
+"下拉获取今天最高数据" = "Pull down to gain latest data";
+"松开刷新" = "Release to refresh";
+//==============运动================
+"千米" = "km";
+"分钟" = "Min";
+"小时" = "Hour";
+"千卡" = "kcal";
+
+"活动里程:千米" = "Mileage:km";
+"当天活动里程:千米" = "Distance:km";
+"当天步数:步"  = "Steps:steps";
+"当天能量消耗:千卡" = "Daily:kcal";
+"当天活动里程:米" = "Distance:m";
+"日均里程:千米" = "Daily: km";
+"日均步数:步" = "Daily: steps";
+"日均消耗:千卡" = "Daily:kcal";
+//==============NFC界面=============
+"NFC电子名片" = "NFC E-Card";
+"设备不支持NFC！" = "NFC not supported";
+"请在系统设置中先启用NFC功能！"= "Please initiate NFC in system settings";
+"NFC标签不允许写入！" = "Write not allowed in NFC tag";
+"文件大小超出容量!" = "File size exceeds capacity";
+"写入名片成功！" = "Name written succeed";
+"写入名片失败！"= "Name written failed";
+"格式化NFC并且写入message！"= "Format NFC and write Message";
+"格式化tag失败！"= "Tag formatted failed";
+"NFC标签格式不支持！"= "NFC tag format not supported";
+"NFC内容:" = "NFC content";
+"输入内容不是网络地址" = "Input was not network address";
+"名字" = "Name";
+"电话" = "Tel.";
+"邮箱" = "E-mail";
+"公司" = "Company";
+"请输入名字" = "Please enter name";
+"请输入电话" = "Please enter phone number.";
+"请输入常用邮箱" = "Please enter frequent using email";
+"请输入公司名" = "Please enter your company name";
+"未输入名字" = "Name needed";
+"电话格式错误" = "Wrong phone number format";
+"邮箱格式错误" = "Wrong email format";
+"未输入公司" = "Company name needed";
+"请将Famar贴近手机NFC感应点" = "Please put Famar close to NFC touch area of your phone";
+"写入成功" = "Written succeeded";
+"写入失败" = "Written failed";
+//==============运动目标设置==============
+"运动设置" = "Fitness Settings";
+"步数目标" = "Target";
+"久坐设置" = "Sedentary settings";
+"久坐开始" = "Sedentariness start";
+"久坐结束" = "Sedentariness end";
+"久坐提醒时间" = "Time to reminder when sedentarily";
+"清除活动量数据" = "Clear data";
+"是否清除活动量数据？" = "Clear data?";
+"分钟" = "Min";
+"保存成功!" = "Saved";
+"目标" = "Target";
+//================事件提醒================
+"闹钟" = "Clock";
+"闹钟开关" = "Clock switch";
+"是否重复" = "Repeat?";
+"闹钟时间" = "Alarm time";
+"断开提醒" = "Disconnect remind";
+//===============智能校时=================
+"智能校时" = "Timing";
+"时区" = "Time zone";
+"没有选择指针位置" = "Did not select position of clock hand";
+"时间同步" = "Time Synch.";
+"修正指针位置" = "Amend clock hand position";
+"是否进行同步时间?" = "Time synch.now?";
+"是否进行指针修正?" = "Timing now?";
+"手表现在的指针指向是？" = "Make the virtual hands' location the same as your watch.";
+"同步过程中需要少许时间，请耐心等待.."= "It takes a little time to Synch,Please waiting.";
+"手指往顺时针或逆时针方向拨动指针" = "Move the clock hand by fingers in a clockwise direction or counterclockwise.";
+"指针修正过程中需少许时间，请耐心等候" = "It takes a little time in the process of synch,waiting please…";
+//================自拍模式===============
+"自拍模式" = "Selfie mode";
+"延时设置" = "Delayed settings";
+"延时" = "Delay";
+//=================分享=================
+"华唛分享" = "Famar Sharing";
+"你想说些什么" = "What do you want to talk";
+"分享成功啦" = "Sharing succeeded";
+"分享失败啦" = "Sharing failed";
+"取消分享" = "Sharing cancelled";
+//===============手机提醒===============
+"勿扰模式" = "Do not disturb";
+"手机提醒" = "Reminder";
+"来电提醒" = "Call reminder";
+"信息提醒" = "Message reminder";
+"邮件提醒" = "Email reminder";
+"请先启用通知访问才能使用这些功能！" = "Please allow notifications before using";
+//================闹钟=================
+"单次" = "Single time";
+"工作日" = "Working day";
+"周末" = "Weekend";
+"每天" = "Daily";
+"重复" = "Repeat";
+//===============更多==================
+"软件版本" = "Version";
+"手表版本" = "Watch version";
+"点击升级" = "Click to update";
+"需要更换电池" = "Battery changing needed";
+"点击断开连接" = "Click to disconnected";
+"个人信息" = "Profile";
+"手表配对" = "Match";
+"请确保手表有电，打开蓝牙并靠近手机" = "Ensure your watch being close to the phone, with normal battery and bluetooth on.";
+"请等待手表震动三次后晃动手表确认连接" = "Shake your watch after 3 vibrations, to ensure the connection.";
+"未发现华唛手表" = "Famar not found";
+"点击图标当手表震动时摇晃手表即可连接" = "Click Icon and connected by shaking after vibrations.";
+"今日记录" = "Today";
+"请先连接手表" = "Please connect to your phone first";
+"正在生成截图，请稍等.."  = "Shortcuts are generating,please wait for a moment.";
+//==============帮助页面文字==============
+"手表是否在手机附近？" = "Is your cellphone nearby?";
+"华唛手表使用蓝牙和手机连接，所以当连接手表时，手机和手表的距离越近越有利于找到手表。" =
+"Famar is connected via bluetooth and cellphone, It is easier to find your watch with closer between watch and phone.";
+"手表电量是否耗尽？"= "Power has run out?";
+"如果手表和手机距离很近还是没有查找到，可能是因为手表没电了。请将手表更换电池，这时再尝试使用手机连接手表。" = "If you still can not find your watch although your cellphone is very close, maybe the power has run out. Please change a new battery and try again.";
+"蓝牙是否已开启？" =  "Bluetooth is turned on?";
+"如果手表有电，且贴近手机仍无法被查找到，请检查手表蓝牙是否开启或尝试将手表蓝牙关闭，长按3H位按键3至5秒钟，12H位指示灯闪烁一次，稍等片刻，再打开蓝牙，重新搜索手表。" = "If you can't find your watch ,even your watch has enough power and phone is nearby,please check whether the bluetooth is on.If the bluetooth is on,you can try like this:long press the button located at 3-Hour for 3 to 5s, turn off the bluetooth, and then repeat the step  to turn on the bluetooth again.";
+"手表已和其他手机绑定？"= "Paired with other phone?";
+"如果你的手表已经和其他手机绑定，并且绑定的手机仍在手表附近，这时你需要解除已经绑定的手机或者关闭已经绑定的手机蓝牙，然后重新用新手机搜索手表。" = "If your watch has been paired with any other phone nearby, you should unpair it and try to search again.";
+"尝试重启手机" = "Try to reboot your Cellphone.";
+"请尝试重启手机，重新打开华唛智能应用。" = "Please try to reboot your cellphone and turn on the Famar APP again.";
+//===============固件升级================
+"有新的固件版本更新!" = "New version found";
+"发现新版本,是否安装?" = "New version found,install now?";
+"连接失败" = "Disconnected";
+"连接成功" = "Connected";
+"正在连接" = "Connecting";
+"今天" = "Today";
+"本周" = "This Week";
+"本月" = "This Month";
+"秒" = "sec";
+"活动里程:米"  = "Distance:m";
+"全天步数:步" = "Steps:steps";
+"活动时间:分" = "Time:Min";
+"能量消耗:千卡" = "Energy:kcal";
+"记录" = "Record";
+"年"   = "Year";
+"月"    =  "Mon";
+"日"    = "day";
+"正在获取闹钟设置..." = "Getting alarm settings...";
+"正在获取数据" = "Getting sport data";
+"华唛科技" = "FAMAR";
+"发现新固件,是否升级？" = "Discover new firmware,whether to upgrade.";
+
+
+
+
